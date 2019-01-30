@@ -33,3 +33,28 @@ Temporary Items
 
 # debug file
 _site
+
+# Libraries
+# Libraries
+/lib/*.jar
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven files
+target/
+bin/
+
+# Intellij IDEA files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# config_center_log
+config_center_client.log
+
+### Java template
+*.class
