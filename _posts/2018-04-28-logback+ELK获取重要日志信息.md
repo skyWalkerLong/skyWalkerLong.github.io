@@ -95,6 +95,7 @@ bin/kibana
 #### logback
 使用logback将应用里的日志输出到logstash，输出到logstash中的日志必须是指定格式的特定日志信息，所以，需要**过滤**和**格式化**
 
+引包
 ```
 <dependency>
     <groupId>net.logstash.logback</groupId>
@@ -104,7 +105,7 @@ bin/kibana
 ```
 
 
-- logback.xml 文件配置(添加appender)
+logback.xml 文件配置(添加appender)
 ```
 <appender name="stash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
     <destination>12.12.12.12:9250</destination>//安装logstash机器的ip地址
@@ -121,7 +122,7 @@ bin/kibana
 </root>
 
 ```
-- 过滤类编写
+过滤类编写
 ```
 public class ELKFilter extends Filter<ILoggingEvent> {
     @Override
@@ -135,4 +136,4 @@ public class ELKFilter extends Filter<ILoggingEvent> {
 }
 ```
 
-- 确定日志格式后输出
+确定日志格式后输出
