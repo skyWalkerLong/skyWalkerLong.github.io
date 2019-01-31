@@ -95,8 +95,7 @@ bin/kibana
 #### logback
 使用logback将应用里的日志输出到logstash，输出到logstash中的日志必须是指定格式的特定日志信息，所以，需要**过滤**和**格式化**。
 - **引包**
-```
-
+``` java
 <dependency>
     <groupId>net.logstash.logback</groupId>
     <artifactId>logstash-logback-encoder</artifactId>
