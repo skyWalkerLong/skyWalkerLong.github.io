@@ -90,7 +90,7 @@ elasticsearch.url:"http://12.12.12.12:9200" //es的访问连接
 ```
 bin/kibana
 ```
-- 访问kibana，浏览器输入：http://localhost:5601，就可以对绑定的es集群进行各种操作了。
+- 访问kibana，浏览器输入：http://localhost:5601，就可以对绑定的es集群进行各种操作了
 
 #### logback
 - 使用logback将应用里的日志输出到logstash，输出到logstash中的日志必须是指定格式的特定日志信息，所以，需要**过滤**和**格式化**。
