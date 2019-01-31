@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      mybatis逆向工程
-subtitle:   快速生成mybatis所需文件
+subtitle:   快速生成mybatis工程文件
 date:       2017-10-26
 author:     lc
 header-img: img/post-bg-universe.jpg
