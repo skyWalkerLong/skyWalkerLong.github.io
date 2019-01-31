@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      git命令
+subtitle:   git快速上手
+date:       2017-10-26
+author:     lc
+header-img: img/post-bg-universe.jpg
+catalog:    true
+tags:
+    - tools
+---
+
 #### git提交相关命令 ####
 1. cd进入项目根目录
 2. 建立.git文件夹  
