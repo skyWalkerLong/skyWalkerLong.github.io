@@ -11,11 +11,7 @@ tags:
 ---
 
 ## Es各参数与mysql对应关系
-| mysql    |    es |
-|:-------- | -----:|
-| database | index |
-| table    | type  |
-| row      | document|
+![table]https://github.com/skyWalkerLong/skywalkerlong.github.io/blob/master/img/2018010901.png?raw=true
 
 
 ## Es相关查询操作
