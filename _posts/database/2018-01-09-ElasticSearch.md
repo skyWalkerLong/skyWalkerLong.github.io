@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      ES基础
-subtitle:   ES基础只是
+subtitle:   
 date:       2017-10-26
 author:     lc
 header-img: img/post-bg-universe.jpg
